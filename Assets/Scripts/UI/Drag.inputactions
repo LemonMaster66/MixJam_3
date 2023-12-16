@@ -1,0 +1,34 @@
+{
+    "name": "Drag",
+    "maps": [
+        {
+            "name": "Drag obj",
+            "id": "89df8f09-b305-428d-adbc-e4a5e6a971f7",
+            "actions": [
+                {
+                    "name": "OnClick",
+                    "type": "Button",
+                    "id": "8c4e2e7c-c545-49cf-bc35-064b06a33c2c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "55f155a0-c296-480b-95ba-58db5d6f2f46",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
