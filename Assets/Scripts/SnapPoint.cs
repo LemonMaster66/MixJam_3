@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class SnapPoint : MonoBehaviour
 {
-    public string Type;
-    public float  Distance;
+    [Header("Properties")]
+    public bool Empty;
+    public string Part;
+    public string Variant;
+    public float Distance;
+
     [Range(0,1)] public float TargetAlpha = 0;
     [Range(0,1)] public float Blend = 0;
 
